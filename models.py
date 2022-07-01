@@ -3,5 +3,5 @@ db = SQLAlchemy()
 class EmployeeModel(db.model):
     __tablename__ = "table"
     id = db.Column(db.Integer, primary_key=True)
-    empl
+    employee_id = db.Column(db.Integer)
     
