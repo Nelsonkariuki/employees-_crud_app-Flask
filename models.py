@@ -1,5 +1,3 @@
-from enum import unique
-from turtle import position
 from flask_sqlalchemy import SQLAlchemy
 db = SQLAlchemy()
 class EmployeeModel(db.Model):
