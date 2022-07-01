@@ -9,3 +9,7 @@ See the list of Employees.
 See information of a specific Employee.
 Update the Information of an Employee
 Delete an Employee information
+
+First install Flask_SQLAlchemy
+
+pip install flask_sqlalchemy
